@@ -6,8 +6,7 @@ services:
     container_name: 'v2raya'
     restart: always
     privileged: true
-    networks:
-      - host
+    network_mode: host
     volumes:
       - '/etc/resolv.conf:/etc/resolv.conf'
       - '/etc/v2raya:/etc/v2raya'
