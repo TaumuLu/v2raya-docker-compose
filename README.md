@@ -11,4 +11,3 @@ docker run -d \
         -v /etc/v2raya:/etc/v2raya \
         mzz2017/v2raya
 ```
-
